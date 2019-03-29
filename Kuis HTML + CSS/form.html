@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>isi form dulu</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+<form action="./thankyou.html">
+
+  <!--ini buat form isi data-->
+  <fieldset id="input">
+    <p>kasih nama kamu donk</p>
+  	nama awal : <input type="text" name="fname" required=""><br>
+  	nama akhir : <input type="text" name="lname" required=""><br>
+  </fieldset>
+
+  <!--ini buat radio button-->
+  <fieldset id="radio">
+    <p>jenis kelamin mu apa ?</p>
+  	<input type="radio" name="gender" value="male" required=""> laki-laki<br>
+  	<input type="radio" name="gender" value="female" required=""> perempuan<br>
+  	<input type="radio" name="gender" value="other" required=""> non binary<br>
+  </fieldset>
+
+  <!--ini buat check box-->
+  <fieldset id="checkbox">
+    <p>apa aja yang sudah kamu pelajarin ?</p>
+  	<input type="checkbox" name="ProgrammingType" value="HTML"> sudah belajar HTML<br>
+  	<input type="checkbox" name="ProgrammingType" value="CSS"> sudah belajar CSS<br>
+  	<input type="checkbox" name="ProgrammingType" value="Javascript"> sudah belajar Javascript<br>
+  </fieldset>
+
+  <!--ini buat select option-->
+  <fieldset id="select">
+    <p>apa yang ingin kamu pelajari setelah ini ?</p>
+    <input type="select" required="" name="programming" required="" list="programmingLangs"/>
+    <datalist id="programmingLangs">
+      <!--<select name="altProgrammingLangs">-->
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+    </datalist>
+  </fieldset>
+
+  <!-- ini submit button nya-->
+  <button type="submit" value="Submit" class="button">Klik disini untuk submit!</button>
+</form>
+</body>

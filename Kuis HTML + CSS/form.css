@@ -1,0 +1,77 @@
+body{
+  background-image: url(./img/formbg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 550px;
+  width: 400px;
+  border-radius: 100px;
+  /*Margin*/
+  margin-top: 130px;
+  margin-right: 50px ;
+  margin-left: 460px ;
+  margin-bottom: 100px;
+}
+
+#input{
+	background-color: white;
+	opacity: 0.75;
+	text-align: justify;
+}
+#input:hover{
+	background-color: white;
+	opacity: 1;
+	transition: 0.8s
+}
+
+#radio{
+	background-color: white;
+	opacity: 0.75;
+	text-align: justify;
+}
+#radio:hover{
+	background-color: white;
+	opacity: 1;
+	transition: 0.8s
+}
+
+#checkbox{
+	background-color: white;
+	opacity: 0.75;
+	text-align: justify;
+}
+#checkbox:hover{
+	background-color: white;
+	opacity: 1;
+	transition: 0.8s
+}
+#select{
+	background-color: white;
+	opacity: 0.75;
+	text-align: justify;
+}
+#select:hover{
+	background-color: white;
+	opacity: 1;
+	transition: 0.8s
+}
+
+.button{
+	font-family: "montserrat",sans-serif;
+	margin-top: 10px;
+	margin-left: 22px;
+	height: 40px;
+	width: 365px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	background: grey;
+	color: black;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.button:hover{
+	transform: scale(0.99);
+	background-color: white;
+	color: blue;
+}

@@ -1,0 +1,67 @@
+body  {
+ 	background-image: url("./img/indexbg.jpg");
+ 	background-size: 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+/*.paragraf{
+  	margin: 10px;
+  	background-color: #ffccff;
+  	opacity: 0.50;
+  	margin-top: 0;
+  	text-align: justify;
+  	text-underline-position: center;
+  	color: solid black;
+  	padding: 10px 30px;
+
+}*/
+img{
+	padding-top: 20px;
+	position: relative;
+	left: 375px;
+}
+figcaption{
+	text-align: center;
+}
+
+div{
+	background-color: white;
+	opacity: 0.5;
+	text-align: justify;
+	width: 1000px;
+	margin: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: relative;
+	border-radius: 20px;
+		left: 68px; 
+}
+div:hover{
+	background-color: white;
+	opacity: 1;
+	transition: 0.8s
+}
+
+.button{
+	font-family: "montserrat",sans-serif;
+	margin-top: 10px;
+	margin-left: 550px;
+	margin-bottom: 50px;
+	height: 40px;
+	width: 200px;
+	border-radius: 105px;
+	border: none;
+	outline: none;
+	background: grey;
+	color: black;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.button:hover{
+	transform: scale(0.99);
+	background-color: white;
+	color: blue;
+}
