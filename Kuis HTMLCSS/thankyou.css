@@ -1,32 +1,40 @@
 body{
-  background-image: url(./img/thankyoubg.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+	background-color: black;
+	color: white;
+	margin-top: 130px;
+  	margin-right: 50px ;
+  	margin-left: 160px ;
+  	margin-bottom: 100px;
 }
-h1,h2{
-	color:black;
+h1{
+	color:white;
 	border-radius: 50px;
 	font-size: medium;
 	text-align: justify;
+	margin-left: 300px;
+}
+
+h2{
+	color:white;
+	border-radius: 50px;
+	font-size: medium;
+	text-align: justify;
+	margin-left: 250px;
 }
 
 .iframe{
 	margin-left: 80px;
 	display: inline-block;
-    border: 1px dotted blue;
     margin: 20px;
     vertical-align: top;
 }
 figcaption{
 	text-align: center;
-	border: 1px dotted blue;
     text-align: center;
 }
 
 .button{
-	font-family: "montserrat",sans-serif;
+	font-family: "Courier New", Courier, monospace;;
 	margin-top: 10px;
 	margin-left: 80px;
 	height: 40px;
